@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="javascript.js" > </script>
+  </head>
+  
+  
+  </head>
+  <body>
+<div id="container">
+
+<table id="tab1">
+<tr>
+<td><img src="3119.png" alt="Logo" width="100px" height="100px"/></td>
+<td id="titleheader"> Call 'n Fix </td>
+</tr>
+<tr>
+<td colspan="2" id="row2"> For an easier Life </td>
+</tr>
+</table>
+
+<div class="topnav" id="myTopnav">
+  <a href="home.html">Home</a>
+  <a href="log in.html">Log in</a>
+  <a href="#contact us" class="active">Contact Us</a>
+</div>
+<br>
+<br>
+<br>
+<input type="text" id="myInput" onkeyup="myFunction1()" placeholder="Search for names..">
+<br>
+<br>
+<br>
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+  
+  
+</body>
+  <script>
+function myFunction1() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+  
+</html>

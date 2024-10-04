@@ -1,0 +1,184 @@
+body
+{
+	font-family: "calibri";
+	font-size:15px;
+	word-spacing: 6px;	
+}
+
+#container
+{
+	padding:10px;
+	margin: 20px;
+	background-color: white;
+	border: solid black 5px;
+}
+
+#titleheader
+{
+	font-size:100px;
+	color:#4C818E;
+	font-weight:bold;
+}
+#row2
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:45px;
+}
+
+#tab1
+{
+	width:100%;
+	border:1px solid black;
+		  border-collapse: collapse;
+
+}
+
+#tab1 td
+{
+	text-align:center;
+	border:1px solid black;
+
+}
+
+#tab1 td:hover
+{
+	background-color:#FEFFDD;
+	
+}
+
+.topnav 
+{
+
+  background-color: #4C818E;
+  position:absolute;
+  right:43px;
+}
+
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover 
+{
+  background-color: rgb(230, 165, 140);
+  color: black;
+}
+
+.part
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:10px;
+	margin: 5px;
+	width : 47%;
+	  
+}
+
+p
+{
+text-align: justify;
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about h2
+{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.about span
+{
+    height: 2px;
+    width: 100px;
+    background: #777;
+    margin: 20px 0;
+}
+.about p
+{
+
+    width: 90%;
+    text-align: center;
+}
+
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 95%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 90%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
